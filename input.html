@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input</title>
+</head>
+<body>
+    <div style="background-color: rgb(85, 255, 176);">
+        <h2> Work whit me</h2>
+        <form onsubmit="alert('application successfully sent ')">
+        <p><input type="text" placeholder="Name"> 
+          <input type="text" placeholder="Surname"> </p>
+        <p><input type="email" placeholder="Your Mail"> </p>
+        <p><input type="number" placeholder="Your Phone Number"> </p>
+        <p><input type="date" placeholder="Your Birthday"> </p>
+        <p><input type="text" placeholder="Cover Letter" style="border: 2px solid; "> </p>
+        <p> Add your CV <span style="font-style: oblique;"> (use a file that is jpg or png or pdf)</span> <input type="file" accept=".jpg,.png,.pdf"> </p> 
+        <p> Your Reel Password <span style="font-style: oblique;"> (if needed) </span> <input type="password"> </p> 
+        <p> Check the softwares that you use :
+          <ul>
+            <li> After Effects <input type="checkbox"></li>
+            <li> Photoshop <input type="checkbox"></li>
+            <li> Maya <input type="checkbox"></li>
+            <li> Blender <input type="checkbox"></li>
+            <li> Nuke <input type="checkbox"></li>
+            <li> Other <span style="font-style: oblique;"> (indicate which ones) </span> <input type="text"></li>
+          </ul> 
+        </p>
+        <p> First available day <input type="date"> </p> 
+        <p style="font-weight: bold;"> I accept the privacy policy <input type="radio"> </p> 
+        <button type="submit">Send Application</button>
+      </form>
+       </div>
+</body>
+</html>
