@@ -1,0 +1,142 @@
+/* Foglio di stile del curriculm di edoardo cirone
+*/
+
+
+/* inserisco le regole generali non per classe */
+body {
+    margin: 5px;
+    background-color: rgb(255, 255, 255);
+    }
+
+    a {
+        font-weight: lighter;
+        color: black;
+    }
+
+    a:hover{
+        font-weight: bold;
+    }
+
+
+   h1 {
+        font-size: xxx-large;
+        font-weight: bold;
+        font-family: sans-serif;
+        margin-bottom: 0px;
+        margin-top: 0;
+    }   
+
+    h2  {
+        margin: 0 ;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    }
+
+    h3  {
+        margin: 0 ;
+    }
+
+    h4  {
+        margin: 0 ;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    }
+/*
+    inserisco le mie classi e i miei ID
+    Sono strutturati per come appaiono sul foglio
+*/
+    
+/*Classi e ID dell'intestazione*/
+
+#intestazione{
+        padding-bottom: 1%;
+    }
+
+    .mionome{
+        background-color:#4fd2d1;
+        margin: 0;
+    }
+
+    .sottotitolo{
+        padding-top: 0%;
+        margin-top: 2px;
+    }
+
+    .reel{
+        text-decoration: none;
+        font-weight: lighter;
+    }
+
+/*Classi e ID Del Corpo*/
+#general{
+        display: flex; 
+        }
+    
+/*Classi e ID Della Colonna di sinistra*/
+#colonnasinistra{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #4fd2d1;
+    width: 50%;
+    padding: 1%;
+    }
+
+    .pan{
+        
+        padding-top: 2%;
+        border-top: solid;
+    }
+
+    #conctactlist{
+        
+        margin-top: 1%;
+    }
+    
+    #softwarelist{
+        list-style: none;
+        padding-left: 5%;
+        padding-top: 1%;
+        margin-top: 1%;
+    }
+
+    #hobbies{
+        padding-top: 20px;
+    }   
+
+/*Classi e ID Della Colonna di sinistra*/
+
+#colonnadestra{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-left: 1%;
+        padding-top: 0px;
+        }
+
+    #summary{
+        padding-bottom: 1%;
+        padding-top: 0;
+        border-bottom: solid;
+    }
+
+    #worklist{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .work{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+
+    #education{
+        
+    border-top: solid;
+    margin-top: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+
+    }
+
